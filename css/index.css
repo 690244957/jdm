@@ -7,10 +7,10 @@ body {
   height: 1000px;
   margin: 0 auto;
 }
-
 .jd-header {
-  position: fixed !important;
+  position: fixed;
   width: 100%;
+  background-color: blue;
   z-index: 999;
   min-width: 320px;
   max-width: 640px;
@@ -24,7 +24,6 @@ body {
   height: 100%;
   padding: 5px 0px;
 }
-
 .jd-header .search input {
   width: 100%;
   height: 30px;
@@ -60,24 +59,11 @@ body {
 }
 .jd-banner {
   position: relative;
-  overflow: hidden;
 }
-.jd-banner ul {
-  width: 1000%;
-  transform: translateX(-10%);
-  -webkit-transform: translateX(-10%);
-}
-/* .jd-banner ul li {
+.jd-banner ul li {
   position: absolute;
   top: 0;
   left: 0;
-} */
-.jd-banner ul li {
-  float: left;
-  width: 10%;
-}
-.jd-banner ul li a {
-  display: block;
 }
 .jd-banner ul li img {
   width: 100%;

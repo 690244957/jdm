@@ -82,3 +82,31 @@ i {
   background: url('../images/jd-sprites.png') no-repeat;
   background-size: 200px 200px;
 }
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  background-color: #daa520;
+  background-image: linear-gradient(#eeeeee, #bbbbbb);
+}
+.header .back,
+.header .menu {
+  width: 44px;
+  height: 44px;
+  float: left;
+  background-position: -22px 0px;
+  padding: 12px;
+  background-origin: content-box;
+  background-clip: content-box;
+}
+.header .menu {
+  float: right;
+  background-position: -60px 0px;
+}
+.header .search {
+  height: 44px;
+  overflow: hidden;
+  padding-top: 7px;
+}
